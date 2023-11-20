@@ -1,0 +1,61 @@
+com.example.tpfinaldap.app-play-services-measurement-api-21.5.0-0 C:\Users\samsung\.gradle\caches\transforms-3\04ee640e3556088f58fdf0d5452c0e14\transformed\play-services-measurement-api-21.5.0\res
+com.example.tpfinaldap.app-activity-1.8.0-1 C:\Users\samsung\.gradle\caches\transforms-3\099c71a2a5b775c0a192aea4b04705a8\transformed\activity-1.8.0\res
+com.example.tpfinaldap.app-emoji2-1.2.0-2 C:\Users\samsung\.gradle\caches\transforms-3\0c94c22ef1d9e2113d647775d46b0b6f\transformed\emoji2-1.2.0\res
+com.example.tpfinaldap.app-navigation-fragment-ktx-2.7.5-3 C:\Users\samsung\.gradle\caches\transforms-3\0ea24f3cada55d0f6fcc5a26e6202896\transformed\navigation-fragment-ktx-2.7.5\res
+com.example.tpfinaldap.app-savedstate-ktx-1.2.1-4 C:\Users\samsung\.gradle\caches\transforms-3\164779ce5127578670ad42b944889fca\transformed\savedstate-ktx-1.2.1\res
+com.example.tpfinaldap.app-lifecycle-viewmodel-2.6.2-5 C:\Users\samsung\.gradle\caches\transforms-3\20671f4924aa90a8cd7f92c84d95778d\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.tpfinaldap.app-lifecycle-runtime-2.6.2-6 C:\Users\samsung\.gradle\caches\transforms-3\3ab3a48055e27233f2977c0ae6df315e\transformed\lifecycle-runtime-2.6.2\res
+com.example.tpfinaldap.app-fragment-1.6.2-7 C:\Users\samsung\.gradle\caches\transforms-3\3cf439aef1e77b388be9d2e4c0dae62b\transformed\fragment-1.6.2\res
+com.example.tpfinaldap.app-ads-adservices-java-1.0.0-beta05-8 C:\Users\samsung\.gradle\caches\transforms-3\47fd5d6ccc621d0685cec4450c58b41e\transformed\ads-adservices-java-1.0.0-beta05\res
+com.example.tpfinaldap.app-profileinstaller-1.3.0-9 C:\Users\samsung\.gradle\caches\transforms-3\4eacd6eb245b36bc972a938ea4d59c34\transformed\profileinstaller-1.3.0\res
+com.example.tpfinaldap.app-play-services-basement-18.1.0-10 C:\Users\samsung\.gradle\caches\transforms-3\4fb8172bea7089a07557980884f5738d\transformed\play-services-basement-18.1.0\res
+com.example.tpfinaldap.app-drawerlayout-1.1.1-11 C:\Users\samsung\.gradle\caches\transforms-3\52ac41e16ba34d3ba533558d0a5b85fb\transformed\drawerlayout-1.1.1\res
+com.example.tpfinaldap.app-startup-runtime-1.1.1-12 C:\Users\samsung\.gradle\caches\transforms-3\53b835155b7ec1551a030a708607adcf\transformed\startup-runtime-1.1.1\res
+com.example.tpfinaldap.app-slidingpanelayout-1.2.0-13 C:\Users\samsung\.gradle\caches\transforms-3\55daef4aa90e87d4752c7f1fd6efba43\transformed\slidingpanelayout-1.2.0\res
+com.example.tpfinaldap.app-lifecycle-livedata-ktx-2.6.2-14 C:\Users\samsung\.gradle\caches\transforms-3\5790e8d779f57b3b9d47fa01a0ee6ec2\transformed\lifecycle-livedata-ktx-2.6.2\res
+com.example.tpfinaldap.app-cardview-1.0.0-15 C:\Users\samsung\.gradle\caches\transforms-3\57cf3f35d928040029d5cccff62294cb\transformed\cardview-1.0.0\res
+com.example.tpfinaldap.app-media-1.0.0-16 C:\Users\samsung\.gradle\caches\transforms-3\584f627b9b422fff64e861255f3ce16c\transformed\media-1.0.0\res
+com.example.tpfinaldap.app-annotation-experimental-1.3.0-17 C:\Users\samsung\.gradle\caches\transforms-3\6bad487e156916f31d9b7c0f69febaad\transformed\annotation-experimental-1.3.0\res
+com.example.tpfinaldap.app-lifecycle-viewmodel-ktx-2.6.2-18 C:\Users\samsung\.gradle\caches\transforms-3\6c1b074b225a1981311f60ffd65eaf9d\transformed\lifecycle-viewmodel-ktx-2.6.2\res
+com.example.tpfinaldap.app-navigation-runtime-ktx-2.7.5-19 C:\Users\samsung\.gradle\caches\transforms-3\6e9ace783ea52539eaa7ba4fa0b5be02\transformed\navigation-runtime-ktx-2.7.5\res
+com.example.tpfinaldap.app-navigation-runtime-2.7.5-20 C:\Users\samsung\.gradle\caches\transforms-3\72aee3860faae96bd3b00f901846a501\transformed\navigation-runtime-2.7.5\res
+com.example.tpfinaldap.app-viewpager2-1.0.0-21 C:\Users\samsung\.gradle\caches\transforms-3\819e9d5c066c4bc05d0918834c7bdbfd\transformed\viewpager2-1.0.0\res
+com.example.tpfinaldap.app-emoji2-views-helper-1.2.0-22 C:\Users\samsung\.gradle\caches\transforms-3\827a64aca1497aadd4f72f1eaa9a8844\transformed\emoji2-views-helper-1.2.0\res
+com.example.tpfinaldap.app-material-1.10.0-23 C:\Users\samsung\.gradle\caches\transforms-3\883239489b9b7c8a89ce66d3c3e969de\transformed\material-1.10.0\res
+com.example.tpfinaldap.app-appcompat-1.6.1-24 C:\Users\samsung\.gradle\caches\transforms-3\8da3213a634dd48ae08caafd9df08223\transformed\appcompat-1.6.1\res
+com.example.tpfinaldap.app-core-1.12.0-25 C:\Users\samsung\.gradle\caches\transforms-3\95dd720d69b2288822a0b77e8468b792\transformed\core-1.12.0\res
+com.example.tpfinaldap.app-lifecycle-process-2.6.2-26 C:\Users\samsung\.gradle\caches\transforms-3\98a1487385f4d86373d46757efb52a8c\transformed\lifecycle-process-2.6.2\res
+com.example.tpfinaldap.app-lifecycle-livedata-2.6.2-27 C:\Users\samsung\.gradle\caches\transforms-3\9cd8a1d055e41842c684875202e07168\transformed\lifecycle-livedata-2.6.2\res
+com.example.tpfinaldap.app-lifecycle-viewmodel-savedstate-2.6.2-28 C:\Users\samsung\.gradle\caches\transforms-3\a21c0b19efc7cc81c08e47421c237cc8\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.tpfinaldap.app-navigation-fragment-2.7.5-29 C:\Users\samsung\.gradle\caches\transforms-3\a410acc91549122c8710c6da1f7c5ddd\transformed\navigation-fragment-2.7.5\res
+com.example.tpfinaldap.app-transition-1.4.1-30 C:\Users\samsung\.gradle\caches\transforms-3\a539ca7592dc7d7076682883d23859f1\transformed\transition-1.4.1\res
+com.example.tpfinaldap.app-glide-4.12.0-31 C:\Users\samsung\.gradle\caches\transforms-3\acfa6a93d5d91bdd771cc7af8f8b9031\transformed\glide-4.12.0\res
+com.example.tpfinaldap.app-play-services-base-18.1.0-32 C:\Users\samsung\.gradle\caches\transforms-3\b243c7bb2697af6b2f5605f678cc9b3c\transformed\play-services-base-18.1.0\res
+com.example.tpfinaldap.app-appcompat-resources-1.6.1-33 C:\Users\samsung\.gradle\caches\transforms-3\bbe9d5538d05f849f154a1b9d94e5307\transformed\appcompat-resources-1.6.1\res
+com.example.tpfinaldap.app-recyclerview-1.1.0-34 C:\Users\samsung\.gradle\caches\transforms-3\c661c9e0c3174333e50e9fab818e540a\transformed\recyclerview-1.1.0\res
+com.example.tpfinaldap.app-lifecycle-livedata-core-ktx-2.6.2-35 C:\Users\samsung\.gradle\caches\transforms-3\ca66a6e1089b39dc6de15933e6aaee3b\transformed\lifecycle-livedata-core-ktx-2.6.2\res
+com.example.tpfinaldap.app-savedstate-1.2.1-36 C:\Users\samsung\.gradle\caches\transforms-3\ccea9c81319bc18545e201a8d728f041\transformed\savedstate-1.2.1\res
+com.example.tpfinaldap.app-lifecycle-livedata-core-2.6.2-37 C:\Users\samsung\.gradle\caches\transforms-3\d0a11731e94c9f9b72941e02835fd163\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.tpfinaldap.app-core-ktx-1.12.0-38 C:\Users\samsung\.gradle\caches\transforms-3\d520b9b3090628f78979f9e5df4124ab\transformed\core-ktx-1.12.0\res
+com.example.tpfinaldap.app-navigation-common-2.7.5-39 C:\Users\samsung\.gradle\caches\transforms-3\d61e690643a2124209ced01c00e28c00\transformed\navigation-common-2.7.5\res
+com.example.tpfinaldap.app-coordinatorlayout-1.1.0-40 C:\Users\samsung\.gradle\caches\transforms-3\d7136618640f0c1f359c40d86fd71536\transformed\coordinatorlayout-1.1.0\res
+com.example.tpfinaldap.app-browser-1.4.0-41 C:\Users\samsung\.gradle\caches\transforms-3\d76da25378442b1ff2aa661852c94744\transformed\browser-1.4.0\res
+com.example.tpfinaldap.app-lifecycle-runtime-ktx-2.6.2-42 C:\Users\samsung\.gradle\caches\transforms-3\dedfba0c9a1c2d188efb6d14fd75e830\transformed\lifecycle-runtime-ktx-2.6.2\res
+com.example.tpfinaldap.app-core-runtime-2.2.0-43 C:\Users\samsung\.gradle\caches\transforms-3\dff2431800c28d75db50b0002e47a111\transformed\core-runtime-2.2.0\res
+com.example.tpfinaldap.app-navigation-ui-ktx-2.7.5-44 C:\Users\samsung\.gradle\caches\transforms-3\e59d151404f31d09b1343e5c127ed02f\transformed\navigation-ui-ktx-2.7.5\res
+com.example.tpfinaldap.app-navigation-common-ktx-2.7.5-45 C:\Users\samsung\.gradle\caches\transforms-3\e6c58aa274f2b784f3f7cc836b023f82\transformed\navigation-common-ktx-2.7.5\res
+com.example.tpfinaldap.app-ads-adservices-1.0.0-beta05-46 C:\Users\samsung\.gradle\caches\transforms-3\ebfa3528d2b1b043040d3793a028ff30\transformed\ads-adservices-1.0.0-beta05\res
+com.example.tpfinaldap.app-window-1.0.0-47 C:\Users\samsung\.gradle\caches\transforms-3\ec20004608618d61bc95ec73eb01b5eb\transformed\window-1.0.0\res
+com.example.tpfinaldap.app-activity-ktx-1.8.0-48 C:\Users\samsung\.gradle\caches\transforms-3\edcadc67ba908d1e770bc5ae937cd2df\transformed\activity-ktx-1.8.0\res
+com.example.tpfinaldap.app-fragment-ktx-1.6.2-49 C:\Users\samsung\.gradle\caches\transforms-3\f267ea5a0791a3d8cf5f142e2d219376\transformed\fragment-ktx-1.6.2\res
+com.example.tpfinaldap.app-firebase-common-20.4.2-50 C:\Users\samsung\.gradle\caches\transforms-3\f3acc8137915adcc11a12b24418a96f2\transformed\firebase-common-20.4.2\res
+com.example.tpfinaldap.app-constraintlayout-2.1.4-51 C:\Users\samsung\.gradle\caches\transforms-3\f745e5aa08450d65821d12f44d817cd7\transformed\constraintlayout-2.1.4\res
+com.example.tpfinaldap.app-navigation-ui-2.7.5-52 C:\Users\samsung\.gradle\caches\transforms-3\f9193261be391ea742545ee3d27f40cc\transformed\navigation-ui-2.7.5\res
+com.example.tpfinaldap.app-pngs-53 C:\Users\samsung\Desktop\TPFinalDAP v2\app\build\generated\res\pngs\debug
+com.example.tpfinaldap.app-res-54 C:\Users\samsung\Desktop\TPFinalDAP v2\app\build\generated\res\processDebugGoogleServices
+com.example.tpfinaldap.app-resValues-55 C:\Users\samsung\Desktop\TPFinalDAP v2\app\build\generated\res\resValues\debug
+com.example.tpfinaldap.app-packageDebugResources-56 C:\Users\samsung\Desktop\TPFinalDAP v2\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.tpfinaldap.app-packageDebugResources-57 C:\Users\samsung\Desktop\TPFinalDAP v2\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.tpfinaldap.app-merged_res-58 C:\Users\samsung\Desktop\TPFinalDAP v2\app\build\intermediates\merged_res\debug
+com.example.tpfinaldap.app-debug-59 C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\debug\res
+com.example.tpfinaldap.app-main-60 C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\res

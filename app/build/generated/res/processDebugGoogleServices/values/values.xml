@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">549886277537</string>
+    <string name="google_api_key" translatable="false">AIzaSyDqY7OMdE1qwg1ji62DFr2uUQ47u_sbbO4</string>
+    <string name="google_app_id" translatable="false">1:549886277537:android:ea4f7295fcf19ba2bebde0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDqY7OMdE1qwg1ji62DFr2uUQ47u_sbbO4</string>
+    <string name="google_storage_bucket" translatable="false">yugioh-dap-firebase.appspot.com</string>
+    <string name="project_id" translatable="false">yugioh-dap-firebase</string>
+</resources>

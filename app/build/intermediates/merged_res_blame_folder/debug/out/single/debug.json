@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\navigation_navigation.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\navigation\\navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\drawable_fondo2.jpg.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\drawable\\fondo2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\layout_fragment_edit_yugioh.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\layout\\fragment_edit_yugioh.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.tpfinaldap.app-merged_res-58:/layout_fragment_pantalla_register.xml.flat",
+        "source": "com.example.tpfinaldap.app-main-60:/layout/fragment_pantalla_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\layout_fragment_subir_yugioh.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\layout\\fragment_subir_yugioh.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\drawable_fondodepantalla.jpg.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\drawable\\fondodepantalla.jpg"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\layout_fragment_data_yugioh.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\layout\\fragment_data_yugioh.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\layout_fragment_pantalla_login.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\layout\\fragment_pantalla_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\drawable_fondo3.jpg.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\drawable\\fondo3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\drawable_fondocarta.jpg.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\drawable\\fondocarta.jpg"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\mipmap-anydpi-v33\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\layout_fragment_pantalla_inicio.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\layout\\fragment_pantalla_inicio.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\layout_item_yugioh.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\layout\\item_yugioh.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\drawable_panda.jpg.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\drawable\\panda.jpg"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\drawable_fondo.jpg.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\drawable\\fondo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\layout_fragment_pantalla_register.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\layout\\fragment_pantalla_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\drawable_fondomagico.jpg.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\drawable\\fondomagico.jpg"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\drawable_descargaq.jpg.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\drawable\\descargaq.jpg"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    }
+]

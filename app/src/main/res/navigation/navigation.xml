@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/pantallaLogin">
+
+    <fragment
+        android:id="@+id/pantallaInicio"
+        android:name="com.example.tpfinaldap.PantallaInicio"
+        android:label="fragment_pantalla_inicio"
+        tools:layout="@layout/fragment_pantalla_inicio" >
+        <action
+            android:id="@+id/action_pantallaInicio_to_subirYUGIOH"
+            app:destination="@id/subirYUGIOH" />
+        <action
+            android:id="@+id/action_pantallaInicio_to_editYUGIOH"
+            app:destination="@id/editYUGIOH" />
+        <action
+            android:id="@+id/action_pantallaInicio_to_dataSuperHeroes"
+            app:destination="@id/dataSuperHeroes" />
+    </fragment>
+    <fragment
+        android:id="@+id/pantallaLogin"
+        android:name="com.example.tpfinaldap.PantallaLogin"
+        android:label="fragment_pantalla_login"
+        tools:layout="@layout/fragment_pantalla_login" >
+        <action
+            android:id="@+id/action_pantallaLogin_to_pantallaRegister"
+            app:destination="@id/pantallaRegister" />
+        <action
+            android:id="@+id/action_pantallaLogin_to_pantallaInicio"
+            app:destination="@id/pantallaInicio" />
+    </fragment>
+    <fragment
+        android:id="@+id/pantallaRegister"
+        android:name="com.example.tpfinaldap.PantallaRegister"
+        android:label="fragment_pantalla_register"
+        tools:layout="@layout/fragment_pantalla_register" >
+        <action
+            android:id="@+id/action_pantallaRegister_to_pantallaInicio"
+            app:destination="@id/pantallaInicio" />
+    </fragment>
+    <fragment
+        android:id="@+id/subirYUGIOH"
+        android:name="com.example.tpfinaldap.SubirYUGIOH"
+        android:label="fragment_subir_super_hero"
+        tools:layout="@layout/fragment_subir_yugioh" >
+        <action
+            android:id="@+id/action_subirYUGIOH_to_pantallaInicio"
+            app:destination="@id/pantallaInicio" />
+    </fragment>
+    <fragment
+        android:id="@+id/editYUGIOH"
+        android:name="com.example.tpfinaldap.EditYUGIOH"
+        android:label="fragment_edit_super_hero"
+        tools:layout="@layout/fragment_edit_yugioh" >
+        <action
+            android:id="@+id/action_editYUGIOH_to_pantallaInicio"
+            app:destination="@id/pantallaInicio" />
+    </fragment>
+    <fragment
+        android:id="@+id/dataSuperHeroes"
+        android:name="com.example.tpfinaldap.DataYUGIOH"
+        android:label="fragment_data_super_heroes"
+        tools:layout="@layout/fragment_data_yugioh" />
+</navigation>
