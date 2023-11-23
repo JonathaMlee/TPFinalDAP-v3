@@ -31,10 +31,12 @@
         android:hint="Card Name"
         android:inputType="textPersonName"
         android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline16"
-        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintHorizontal_bias="0.411"
         app:layout_constraintStart_toStartOf="@+id/guideline15"
-        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        app:layout_constraintVertical_bias="0.011" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline8"
@@ -65,7 +67,7 @@
         app:layout_constraintGuide_begin="378dp" />
 
     <EditText
-        android:id="@+id/MonsterType"
+        android:id="@+id/MonsterTypeNuevo"
         android:layout_width="279dp"
         android:layout_height="49dp"
         android:layout_marginTop="36dp"
@@ -73,23 +75,26 @@
         android:hint="Monster type"
         android:inputType="textPersonName"
         android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline16"
-        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="@+id/guideline15"
-        app:layout_constraintTop_toBottomOf="@+id/YUGIOHNuevo" />
+        app:layout_constraintTop_toBottomOf="@+id/YUGIOHNuevo"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/NewImage"
+        android:id="@+id/photoNuevo"
         android:layout_width="278dp"
         android:layout_height="51dp"
         android:ems="10"
         android:hint="URL Image"
         android:inputType="textPersonName"
         android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline16"
         app:layout_constraintHorizontal_bias="0.411"
         app:layout_constraintStart_toStartOf="@+id/guideline15"
-        tools:layout_editor_absoluteY="340dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/descriptionNuevo"
@@ -103,7 +108,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline16"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/NewImage"
+        app:layout_constraintTop_toBottomOf="@+id/photoNuevo"
         app:layout_constraintVertical_bias="0.15" />
 
     <Button

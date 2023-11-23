@@ -10,32 +10,32 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.tpfinaldap.R
 
-class SuperHeroAdapter(
-     superHerolist: ArrayList<SuperHero>,
+class YUGIOHAdapter(
+    YUGIOHlist: ArrayList<Yugioh>,
     private val onDeleteClick : (Int)->Unit,
     private val onEditClick : (Int) -> Unit,
-     private val onItemClick: (Int) -> Unit
+    private val onItemClick: (Int) -> Unit
 
-): RecyclerView.Adapter<SuperHeroAdapter.SuperHeroViewHolder>(){
-    private var YUGIOHlist: ArrayList<SuperHero>
+): RecyclerView.Adapter<YUGIOHAdapter.YUGIOHViewHolder>(){
+    private var YUGIOHlist: ArrayList<Yugioh>
 
     init {
-        this.YUGIOHlist =superHerolist
+        this.YUGIOHlist =YUGIOHlist
     }
 
-    class SuperHeroViewHolder(view: View): RecyclerView.ViewHolder(view) {
+    class YUGIOHViewHolder(view: View): RecyclerView.ViewHolder(view) {
 
-        val Yugioh= view.findViewById<TextView>(R.id.tvYugioh)
-        val MonsterType= view.findViewById<TextView>(R.id.tvMonsterType)
+        val yugioh= view.findViewById<TextView>(R.id.tvYugioh)
+        val monstertype= view.findViewById<TextView>(R.id.tvMonsterType)
         val photo = view.findViewById<ImageView>(R.id.ivYUGIOH)
         val editar = view.findViewById<Button>(R.id.botonEditar)
         val eliminar = view.findViewById<Button>(R.id.botonEliminar)
 
-        fun render(superHeroModel: SuperHero){
-            Yugioh.text = superHeroModel.yugioh
-            MonsterType.text = superHeroModel.monstertype
+        fun render(YUGIOHModel: Yugioh){
+            yugioh.text = YUGIOHModel.yugioh
+            monstertype.text = YUGIOHModel.monstertype
 
-            Glide.with(photo.context).load(superHeroModel.photo).into(photo)
+            Glide.with(photo.context).load(YUGIOHModel.photo).into(photo)
             /*photo.setOnClickListener{
                 Toast.makeText(photo.context, superHeroModel.realName, Toast.LENGTH_SHORT).show()
             }*/
@@ -43,11 +43,11 @@ class SuperHeroAdapter(
 
         }
     }
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SuperHeroViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): YUGIOHViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
-        return SuperHeroViewHolder(layoutInflater.inflate(R.layout.item_yugioh, parent, false))
+        return YUGIOHViewHolder(layoutInflater.inflate(R.layout.item_yugioh, parent, false))
     }
-    override fun onBindViewHolder(holder: SuperHeroViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: YUGIOHViewHolder, position: Int) {
         val item = YUGIOHlist[position]
         holder.render(item)
         holder.eliminar.setOnClickListener {

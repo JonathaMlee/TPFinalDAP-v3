@@ -8,13 +8,13 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="dataSuperHeroes">
+                  <entry key="dataYUGIOH">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="305" />
-                            <option name="y" value="355" />
+                            <option name="x" value="263" />
+                            <option name="y" value="383" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -52,7 +52,7 @@
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_pantallaInicio_to_dataSuperHeroes">
+                            <entry key="action_pantallaInicio_to_dataYUGIOH">
                               <value>
                                 <LayoutPositions />
                               </value>

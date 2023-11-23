@@ -11,14 +11,14 @@
         android:label="fragment_pantalla_inicio"
         tools:layout="@layout/fragment_pantalla_inicio" >
         <action
-            android:id="@+id/action_pantallaInicio_to_subirSuperHero"
-            app:destination="@id/subirSuperHero" />
+            android:id="@+id/action_pantallaInicio_to_subirYUGIOH"
+            app:destination="@id/subirYUGIOH" />
         <action
-            android:id="@+id/action_pantallaInicio_to_editSuperHero"
-            app:destination="@id/editSuperHero" />
+            android:id="@+id/action_pantallaInicio_to_editYUGIOH"
+            app:destination="@id/editYUGIOH" />
         <action
-            android:id="@+id/action_pantallaInicio_to_dataSuperHeroes"
-            app:destination="@id/dataSuperHeroes" />
+            android:id="@+id/action_pantallaInicio_to_dataYUGIOH"
+            app:destination="@id/dataYUGIOH" />
     </fragment>
     <fragment
         android:id="@+id/pantallaLogin"
@@ -42,25 +42,25 @@
             app:destination="@id/pantallaInicio" />
     </fragment>
     <fragment
-        android:id="@+id/subirSuperHero"
+        android:id="@+id/subirYUGIOH"
         android:name="com.example.tpfinaldap.SubirYUGIOH"
         android:label="fragment_subir_super_hero"
         tools:layout="@layout/fragment_subir_yugioh" >
         <action
-            android:id="@+id/action_subirSuperHero_to_pantallaInicio"
+            android:id="@+id/action_subirYUGIOH_to_pantallaInicio"
             app:destination="@id/pantallaInicio" />
     </fragment>
     <fragment
-        android:id="@+id/editSuperHero"
+        android:id="@+id/editYUGIOH"
         android:name="com.example.tpfinaldap.EditYUGIOH"
         android:label="fragment_edit_super_hero"
         tools:layout="@layout/fragment_edit_yugioh" >
         <action
-            android:id="@+id/action_editSuperHero_to_pantallaInicio"
+            android:id="@+id/action_editYUGIOH_to_pantallaInicio"
             app:destination="@id/pantallaInicio" />
     </fragment>
     <fragment
-        android:id="@+id/dataSuperHeroes"
+        android:id="@+id/dataYUGIOH"
         android:name="com.example.tpfinaldap.DataYUGIOH"
         android:label="fragment_data_super_heroes"
         tools:layout="@layout/fragment_data_yugioh" />

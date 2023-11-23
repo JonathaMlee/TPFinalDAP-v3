@@ -147,20 +147,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\samsung\\Desktop\\TPFinalDAP v2\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\samsung\\Desktop\\TPFinalDAP v3\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
+                        "startLines": "1,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "16,120",
+                        "endColumns": "49,69",
+                        "endOffsets": "61,185"
                     },
                     "to": {
-                        "startLines": "648,968,969,970,981,982,985",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "33134,57003,57050,57097,57841,57886,58052",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "33171,57045,57092,57139,57881,57926,58089"
+                        "startLines": "2008,2062",
+                        "startColumns": "4,4",
+                        "startOffsets": "132775,138771",
+                        "endColumns": "49,69",
+                        "endOffsets": "132820,138836"
                     }
                 },
                 {
@@ -458,23 +458,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\samsung\\Desktop\\TPFinalDAP v2\\app\\build\\generated\\res\\processDebugGoogleServices\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,137,241,350,470,573",
-                        "endColumns": "81,103,108,119,102,79",
-                        "endOffsets": "132,236,345,465,568,648"
-                    },
-                    "to": {
-                        "startLines": "2057,2058,2059,2060,2061,2179",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "138253,138335,138439,138548,138668,155701",
-                        "endColumns": "81,103,108,119,102,79",
-                        "endOffsets": "138330,138434,138543,138663,138766,155776"
-                    }
-                },
-                {
                     "source": "C:\\Users\\samsung\\.gradle\\caches\\transforms-3\\3ab3a48055e27233f2977c0ae6df315e\\transformed\\lifecycle-runtime-2.6.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -545,6 +528,42 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\samsung\\Desktop\\TPFinalDAP v3\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "797"
+                    },
+                    "to": {
+                        "startLines": "6590",
+                        "startColumns": "4",
+                        "startOffsets": "463785",
+                        "endLines": "6602",
+                        "endColumns": "12",
+                        "endOffsets": "464361"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\samsung\\Desktop\\TPFinalDAP v3\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
+                    },
+                    "to": {
+                        "startLines": "648,968,969,970,981,982,985",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "33134,57003,57050,57097,57841,57886,58052",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "33171,57045,57092,57139,57881,57926,58089"
+                    }
+                },
+                {
                     "source": "C:\\Users\\samsung\\.gradle\\caches\\transforms-3\\819e9d5c066c4bc05d0918834c7bdbfd\\transformed\\viewpager2-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -581,25 +600,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\samsung\\Desktop\\TPFinalDAP v2\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "797"
-                    },
-                    "to": {
-                        "startLines": "6590",
-                        "startColumns": "4",
-                        "startOffsets": "463785",
-                        "endLines": "6602",
-                        "endColumns": "12",
-                        "endOffsets": "464361"
-                    }
-                },
-                {
                     "source": "C:\\Users\\samsung\\.gradle\\caches\\transforms-3\\53b835155b7ec1551a030a708607adcf\\transformed\\startup-runtime-1.1.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -614,23 +614,6 @@
                         "startOffsets": "132692",
                         "endColumns": "82",
                         "endOffsets": "132770"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\samsung\\Desktop\\TPFinalDAP v2\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "16,120",
-                        "endColumns": "49,69",
-                        "endOffsets": "61,185"
-                    },
-                    "to": {
-                        "startLines": "2008,2062",
-                        "startColumns": "4,4",
-                        "startOffsets": "132775,138771",
-                        "endColumns": "49,69",
-                        "endOffsets": "132820,138836"
                     }
                 },
                 {
@@ -650,6 +633,23 @@
                         "endLines": "12465,12471,12477,12480,12644",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "761801,762045,762292,762425,767580"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\samsung\\Desktop\\TPFinalDAP v3\\app\\build\\generated\\res\\processDebugGoogleServices\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,137,241,350,470,573",
+                        "endColumns": "81,103,108,119,102,79",
+                        "endOffsets": "132,236,345,465,568,648"
+                    },
+                    "to": {
+                        "startLines": "2057,2058,2059,2060,2061,2179",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "138253,138335,138439,138548,138668,155701",
+                        "endColumns": "81,103,108,119,102,79",
+                        "endOffsets": "138330,138434,138543,138663,138766,155776"
                     }
                 },
                 {
@@ -4716,7 +4716,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\samsung\\Desktop\\TPFinalDAP v2\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\samsung\\Desktop\\TPFinalDAP v3\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

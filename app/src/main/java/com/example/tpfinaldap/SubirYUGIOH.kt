@@ -28,11 +28,11 @@ class SubirYUGIOH : Fragment() {
     private var db = Firebase.firestore
     private lateinit var botonSubir: Button
 
-    private lateinit var dataSuperHero: String
+    private lateinit var dataYUGIOH: String
 
 
 
-    @SuppressLint("MissingInflatedId")
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -49,15 +49,15 @@ class SubirYUGIOH : Fragment() {
 
             val documentId:String = db.collection("YUGIOH").document().id
 
-            val superHeroeNuevo = hashMapOf(
-                "YUGIOH Card" to TextYUGIOH.text.toString(),
-                "Monster type" to TextMonsterType.text.toString(),
+            val YUGIOHNuevo = hashMapOf(
+                "yugioh" to TextYUGIOH.text.toString(),
+                "monstertype" to TextMonsterType.text.toString(),
                 "photo" to textFoto.text.toString(),
                 "description" to textDescription.text.toString(),
-                "IDYUGIOH" to documentId
+                "idYUGIOH" to documentId
             )
 
-            db.collection("YUGIOH").document(documentId).set(superHeroeNuevo)
+            db.collection("YUGIOH").document(documentId).set(YUGIOHNuevo)
                 .addOnSuccessListener {
                     Toast.makeText(context, "subido", Toast.LENGTH_SHORT).show()}
                 .addOnFailureListener { e ->

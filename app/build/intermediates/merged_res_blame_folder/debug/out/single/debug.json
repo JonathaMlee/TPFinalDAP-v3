@@ -8,6 +8,10 @@
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\drawable\\fondo2.jpg"
     },
     {
+        "merged": "com.example.tpfinaldap.app-merged_res-58:/layout_item_yugioh.xml.flat",
+        "source": "com.example.tpfinaldap.app-main-60:/layout/item_yugioh.xml"
+    },
+    {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\layout_fragment_edit_yugioh.xml.flat",
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\layout\\fragment_edit_yugioh.xml"
     },
@@ -22,10 +26,6 @@
     {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.tpfinaldap.app-merged_res-58:/layout_fragment_pantalla_register.xml.flat",
-        "source": "com.example.tpfinaldap.app-main-60:/layout/fragment_pantalla_register.xml"
     },
     {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\layout\\fragment_data_yugioh.xml"
     },
     {
-        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\layout_fragment_pantalla_login.xml.flat",
-        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\layout\\fragment_pantalla_login.xml"
-    },
-    {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\drawable_fondo3.jpg.flat",
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\drawable\\fondo3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\layout_fragment_pantalla_login.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-main-60:\\layout\\fragment_pantalla_login.xml"
     },
     {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.tpfinaldap.app-merged_res-58:\\drawable_fondocarta.jpg.flat",

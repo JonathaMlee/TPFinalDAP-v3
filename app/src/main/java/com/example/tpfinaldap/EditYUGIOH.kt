@@ -23,9 +23,9 @@ class EditYUGIOH : Fragment() {
     private var db = Firebase.firestore
 
     private lateinit var YUGIOHNuevo: EditText
-    private lateinit var MonsterTYPE: EditText
+    private lateinit var MonsterTypeNuevo: EditText
 
-    private lateinit var NewImage: EditText
+    private lateinit var photoNuevo: EditText
     private lateinit var descriptionNuevo: EditText
 
     private lateinit var YUGIOHID: String
@@ -33,7 +33,7 @@ class EditYUGIOH : Fragment() {
     private lateinit var botonSubirDatos: Button
 
 
-    @SuppressLint("MissingInflatedId")
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -41,9 +41,9 @@ class EditYUGIOH : Fragment() {
         val view = inflater.inflate(R.layout.fragment_edit_yugioh, container, false)
 
         YUGIOHNuevo = view.findViewById(R.id.YUGIOHNuevo)
-        MonsterTYPE = view.findViewById(R.id.MonsterType)
+        MonsterTypeNuevo = view.findViewById(R.id.MonsterTypeNuevo)
 
-        NewImage = view.findViewById(R.id.NewImage)
+        photoNuevo = view.findViewById(R.id.photoNuevo)
         descriptionNuevo = view.findViewById(R.id.descriptionNuevo)
 
         botonSubirDatos = view.findViewById(R.id.botonSubirDatos)
@@ -55,11 +55,11 @@ class EditYUGIOH : Fragment() {
 
         db.collection("YUGIOH").document(data1).get().addOnSuccessListener {
 
-            YUGIOHNuevo.setText(it.data?.get("YUGIOHNEW").toString())
-            MonsterTYPE.setText(it.data?.get("Monster Type").toString())
-            NewImage.setText(it.data?.get("Image").toString())
+            YUGIOHNuevo.setText(it.data?.get("yugioh").toString())
+            MonsterTypeNuevo.setText(it.data?.get("monstertype").toString())
+            photoNuevo.setText(it.data?.get("photo").toString())
             descriptionNuevo.setText(it.data?.get("description").toString())
-            YUGIOHID = it.data?.get("IDYUGIOH").toString()
+            YUGIOHID = it.data?.get("idYUGIOH").toString()
 
         }.addOnFailureListener {
             Toast.makeText(context, "no se encontraron datos", Toast.LENGTH_SHORT).show()
@@ -68,11 +68,11 @@ class EditYUGIOH : Fragment() {
         botonSubirDatos.setOnClickListener {
 
             val YUGIOHNuevo = hashMapOf(
-                "YUGIOHNEW" to YUGIOHNuevo.text.toString(),
-                "Monster Type" to MonsterTYPE.text.toString(),
-                "Image" to NewImage.text.toString(),
+                "yugioh" to YUGIOHNuevo.text.toString(),
+                "monstertype" to MonsterTypeNuevo.text.toString(),
+                "photo" to photoNuevo.text.toString(),
                 "description" to descriptionNuevo.text.toString(),
-                "IDYUGIOH" to YUGIOHID
+                "idYUGIOH" to YUGIOHID
             )
 
             db.collection("YUGIOH").document(data1).set(YUGIOHNuevo)

@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml
+8-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="34" />
-9-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml
+9-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml
 10
 11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
@@ -46,41 +46,41 @@
 25-->[androidx.core:core:1.12.0] C:\Users\samsung\.gradle\caches\transforms-3\95dd720d69b2288822a0b77e8468b792\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 26
 27    <application
-27-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:5:5-23:19
+27-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:5:5-23:19
 28        android:allowBackup="true"
-28-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:6:9-35
+28-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:6:9-35
 29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 29-->[androidx.core:core:1.12.0] C:\Users\samsung\.gradle\caches\transforms-3\95dd720d69b2288822a0b77e8468b792\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 30        android:dataExtractionRules="@xml/data_extraction_rules"
-30-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:7:9-65
+30-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:7:9-65
 31        android:debuggable="true"
 32        android:extractNativeLibs="false"
 33        android:fullBackupContent="@xml/backup_rules"
-33-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:8:9-54
+33-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:8:9-54
 34        android:icon="@mipmap/ic_launcher"
-34-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:9:9-43
+34-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:9:9-43
 35        android:label="@string/app_name"
-35-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:10:9-41
+35-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:10:9-41
 36        android:supportsRtl="true"
-36-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:11:9-35
+36-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:11:9-35
 37        android:testOnly="true"
 38        android:theme="@style/Theme.TPFinalDAP" >
-38-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:12:9-48
+38-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:12:9-48
 39        <activity
-39-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:14:9-22:20
+39-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:14:9-22:20
 40            android:name="com.example.tpfinaldap.MainActivity"
-40-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:15:13-41
+40-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:15:13-41
 41            android:exported="true" >
-41-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:16:13-36
+41-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:16:13-36
 42            <intent-filter>
-42-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:17:13-21:29
+42-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:17:13-21:29
 43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:18:17-69
-43-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:18:25-66
+43-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:18:17-69
+43-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:18:25-66
 44
 45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:20:17-77
-45-->C:\Users\samsung\Desktop\TPFinalDAP v2\app\src\main\AndroidManifest.xml:20:27-74
+45-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:20:17-77
+45-->C:\Users\samsung\Desktop\TPFinalDAP v3\app\src\main\AndroidManifest.xml:20:27-74
 46            </intent-filter>
 47        </activity>
 48

@@ -11,8 +11,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.tpfinaldap.recycleviewclasses.SuperHero
-import com.example.tpfinaldap.recycleviewclasses.SuperHeroAdapter
+import com.example.tpfinaldap.recycleviewclasses.Yugioh
+import com.example.tpfinaldap.recycleviewclasses.YUGIOHAdapter
 import com.example.tpfinaldap.viewmodels.PantallaInicioViewModel
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
@@ -22,13 +22,13 @@ class PantallaInicio : Fragment() {
 
     private lateinit var viewModel: PantallaInicioViewModel
     private lateinit var recyclerView: RecyclerView
-    private lateinit var superHeroList: ArrayList<SuperHero>
+    private lateinit var YUGIOHList: ArrayList<Yugioh>
     private var db = Firebase.firestore
     private lateinit var botonAdd: Button
-    private lateinit var idSuperHeroeActual: String
+    private lateinit var idYUGIOHActual: String
     private lateinit var idCompartido: sharedData
 
-    private lateinit var adapter : SuperHeroAdapter
+    private lateinit var adapter : YUGIOHAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -39,7 +39,7 @@ class PantallaInicio : Fragment() {
         db = FirebaseFirestore.getInstance()
         recyclerView = view.findViewById(R.id.recyclerYUGIOH)
         recyclerView.layoutManager = LinearLayoutManager(context)
-        superHeroList = arrayListOf()
+        YUGIOHList = arrayListOf()
         botonAdd = view.findViewById(R.id.botonAñadir)
 
         initRecyclerView()
@@ -51,19 +51,19 @@ class PantallaInicio : Fragment() {
     }
 
     private fun initRecyclerView() {
-        db.collection("SuperHeroes").get().addOnSuccessListener {
+        db.collection("YUGIOH").get().addOnSuccessListener {
             if (!it.isEmpty) {
                 for (data in it.documents) {
-                    val superHero:SuperHero? = data.toObject<SuperHero>(SuperHero::class.java)
-                    superHeroList.add(superHero!!)
+                    val Yugioh:Yugioh? = data.toObject<Yugioh>(Yugioh::class.java)
+                    YUGIOHList.add(Yugioh!!)
                 }
 
-                adapter = SuperHeroAdapter(superHeroList,
-                    onDeleteClick = {position -> deleteHero(position)
+                adapter = YUGIOHAdapter(YUGIOHList,
+                    onDeleteClick = {position -> deleteyugioh(position)
                 },
-                    onEditClick = {position -> editSuperHero(position)
+                    onEditClick = {position -> edityugioh(position)
                 },
-                    onItemClick = {position -> seeSuperHeroData(position)})
+                    onItemClick = {position -> seeyugioh(position)})
 
                 recyclerView.adapter = adapter
             }
@@ -72,33 +72,33 @@ class PantallaInicio : Fragment() {
         }
     }
 
-    fun seeSuperHeroData(position:Int) {
+    fun seeyugioh(position:Int) {
 
-        idSuperHeroeActual = superHeroList[position].idSuperHero.toString()
+        idYUGIOHActual = YUGIOHList[position].idYUGIOH.toString()
 
         idCompartido = ViewModelProvider(requireActivity()).get(sharedData::class.java)
-        idCompartido.dataID.value = idSuperHeroeActual
+        idCompartido.dataID.value = idYUGIOHActual
 
-        findNavController().navigate(R.id.action_pantallaInicio_to_dataSuperHeroes)
+        findNavController().navigate(R.id.action_pantallaInicio_to_dataYUGIOH)
     }
 
-    fun editSuperHero(position: Int) {
-        idSuperHeroeActual = superHeroList[position].idSuperHero.toString()
+    fun edityugioh(position: Int) {
+        idYUGIOHActual = YUGIOHList[position].idYUGIOH.toString()
 
         idCompartido = ViewModelProvider(requireActivity()).get(sharedData::class.java)
-        idCompartido.dataID.value = idSuperHeroeActual
+        idCompartido.dataID.value = idYUGIOHActual
 
         findNavController().navigate(R.id.action_pantallaInicio_to_editYUGIOH)
     }
 
-    fun deleteHero (position : Int){
+    fun deleteyugioh (position : Int){
 
-        db.collection("SuperHeroes").document(superHeroList[position].idSuperHero.toString()).delete()
+        db.collection("YUGIOH").document(YUGIOHList[position].idYUGIOH.toString()).delete()
             .addOnSuccessListener {
-                Toast.makeText(requireContext(),"Super Heroe Eliminado", Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(),"Carta Eliminada", Toast.LENGTH_SHORT).show()
                 adapter.notifyItemRemoved(position)
-                superHeroList.removeAt(position)
+                YUGIOHList.removeAt(position)
             }
-            .addOnFailureListener { Toast.makeText(requireContext(),"No se puedo eliminar el Super Heroe", Toast.LENGTH_SHORT).show() }
+            .addOnFailureListener { Toast.makeText(requireContext(),"No se puedo eliminar la carta", Toast.LENGTH_SHORT).show() }
     }
 }

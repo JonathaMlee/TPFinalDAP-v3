@@ -11,14 +11,14 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import com.bumptech.glide.Glide
-import com.example.tpfinaldap.viewmodels.DataSuperHeroesViewModel
+import com.example.tpfinaldap.viewmodels.YUGIOHViewModel
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 
 class DataYUGIOH : Fragment() {
 
-    private lateinit var viewModel: DataSuperHeroesViewModel
+    private lateinit var viewModel: YUGIOHViewModel
     private lateinit var idCompartido: sharedData
     private var db = Firebase.firestore
 
@@ -27,7 +27,7 @@ class DataYUGIOH : Fragment() {
     private lateinit var photoData: ImageView
     private lateinit var descriptionData: TextView
 
-    @SuppressLint("MissingInflatedId")
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -46,8 +46,8 @@ class DataYUGIOH : Fragment() {
 
             db.collection("YUGIOH").document(data1).get().addOnSuccessListener {
 
-                YUGIOHData.text = (it.data?.get("superhero").toString())
-                MonsterTypeData.text = (it.data?.get("realName").toString())
+                YUGIOHData.text = (it.data?.get("yugioh").toString())
+                MonsterTypeData.text = (it.data?.get("monstertype").toString())
                 Glide.with(photoData.context).load(it.data?.get("photo").toString()).into(photoData)
                 descriptionData.text = (it.data?.get("description").toString())
 

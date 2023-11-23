@@ -41,6 +41,7 @@
         app:layout_constraintStart_toEndOf="@+id/ivYUGIOH"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.053"
+        android:textColor="@color/black"
         tools:text="Dark Magician" />
 
     <TextView
@@ -54,6 +55,7 @@
         app:layout_constraintStart_toEndOf="@+id/ivYUGIOH"
         app:layout_constraintTop_toBottomOf="@+id/tvYugioh"
         app:layout_constraintVertical_bias="0.156"
+        android:textColor="@color/black"
         tools:text="Normal Monster" />
 
     <Button

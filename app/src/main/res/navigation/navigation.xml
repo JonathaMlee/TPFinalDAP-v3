@@ -17,8 +17,8 @@
             android:id="@+id/action_pantallaInicio_to_editYUGIOH"
             app:destination="@id/editYUGIOH" />
         <action
-            android:id="@+id/action_pantallaInicio_to_dataSuperHeroes"
-            app:destination="@id/dataSuperHeroes" />
+            android:id="@+id/action_pantallaInicio_to_dataYUGIOH"
+            app:destination="@id/dataYUGIOH" />
     </fragment>
     <fragment
         android:id="@+id/pantallaLogin"
@@ -60,7 +60,7 @@
             app:destination="@id/pantallaInicio" />
     </fragment>
     <fragment
-        android:id="@+id/dataSuperHeroes"
+        android:id="@+id/dataYUGIOH"
         android:name="com.example.tpfinaldap.DataYUGIOH"
         android:label="fragment_data_super_heroes"
         tools:layout="@layout/fragment_data_yugioh" />
